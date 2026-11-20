@@ -12,7 +12,7 @@ Rule: 2 VALUE Reels : 1 WORKSHOP AD Reel. Never repeat a topic.
 | 2026-11-15 | VALUE | Gemini Canvas sketch-to-app | Posted | https://www.instagram.com/reel/Dfv2sRrzVYw/ |
 | 2026-11-15 | VALUE | Google Vids free AI video (3/month) | Posted | https://www.instagram.com/reel/Dfv2hcQz_Dz/ |
 | 2026-11-17 | WORKSHOP AD | Zero-Code AI Workshop (3D/pizza-price hook) | Posted | https://www.instagram.com/reel/Df2VspfDLzh/ |
-| 2026-11-20 | VALUE | Gemini Tasks free in India (bg multi-step agent) | Rendered, awaiting Vicky yes | - |
+| 2026-11-20 | VALUE | Gemini Tasks free in India (bg multi-step agent) | Posted | https://www.instagram.com/reel/Df9zwpigAZT/ |
 
 Next type due: VALUE (then WORKSHOP AD).
 
