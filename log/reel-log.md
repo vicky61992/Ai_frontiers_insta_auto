@@ -23,3 +23,15 @@ Next type due: VALUE (then WORKSHOP AD).
 - STT QA: gemini-3.5-flash.
 - Renderer: Python + PIL + ffmpeg, navy+gold, cover first 3 s, synthesized music ducked.
 - rocket-launch-register.lovable.app is not reachable from the cloud sandbox (network allowlist); workshop details taken from earlier captions.
+
+## WORKSHOP BATCH DATE RULE (set 2026-11-20, Vicky's instruction — do not hardcode a fixed date again)
+Every month has TWO batches, always:
+- Batch A: the 2nd Saturday–Sunday of the month
+- Batch B: the 4th Saturday–Sunday of the month
+("2nd Saturday" = the 2nd Saturday counting from day 1 of that month; the batch is that Saturday + the next day, Sunday.)
+
+For every new WORKSHOP AD Reel: compute TODAY's date, find the next upcoming batch (A or B, whichever comes first that hasn't already passed/started), and use ONLY that batch's real calendar dates in the script/caption. Never reuse a date from a previous Reel once it has passed. If genuinely unsure which batch is "next" (e.g. today falls between the two), ask Vicky once rather than guessing.
+
+Time: 6–9 PM IST. Price: ₹199 (reg ₹599) unless Vicky has said a new price in this chat. Register at https://rocket-launch-register.lovable.app.
+
+Example (do NOT hardcode this — recompute live each time): for December 2026, Batch A = 12–13 Dec, Batch B = 26–27 Dec.
