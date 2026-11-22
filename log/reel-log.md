@@ -14,8 +14,9 @@ Rule: 2 VALUE Reels : 1 WORKSHOP AD Reel. Never repeat a topic.
 | 2026-11-17 | WORKSHOP AD | Zero-Code AI Workshop (3D/pizza-price hook) | Posted | https://www.instagram.com/reel/Df2VspfDLzh/ |
 | 2026-11-20 | VALUE | Gemini Tasks free in India (bg multi-step agent) | Posted | https://www.instagram.com/reel/Df9zwpigAZT/ |
 | 2026-11-21 | WORKSHOP AD | Zero-Code AI Workshop (weekend/calendar hook, batch 28-29 Nov per new date rule) | Posted | https://www.instagram.com/reel/Df_eqsMAKc9/ |
+| 2026-11-22 | VALUE | Jio free Google Gemini Pro (18mo, worth ₹35,100, incl. Gemini 3 + 2TB storage) | Posted | https://www.instagram.com/reel/DgDG9jNDP4X/ |
 
-Next type due: VALUE, VALUE (then WORKSHOP AD) — 2 VALUE reels owed before next ad, per the 2:1 ratio.
+Next type due: VALUE (then WORKSHOP AD) — 1 VALUE reel owed before next ad, per the 2:1 ratio.
 
 2026-11-10 gemini-notebook-v3.mp4 / -v4.mp4: earlier draft iterations of the already-posted Gemini Notebook reel (DfjyQxYFKgY) — not separate pending posts, do not publish.
 
@@ -24,6 +25,9 @@ Next type due: VALUE, VALUE (then WORKSHOP AD) — 2 VALUE reels owed before nex
 - STT QA: gemini-3.5-flash.
 - Renderer: Python + PIL + ffmpeg, navy+gold, cover first 3 s, synthesized music ducked.
 - rocket-launch-register.lovable.app is not reachable from the cloud sandbox (network allowlist); workshop details taken from earlier captions.
+- **STT QA false positive (2026-11-22):** gemini-3.5-flash STT consistently mis-transcribes a spoken "Gemini 3" (or "Gemini Three") as a different known model name ("Gemini 1.5 Pro", "Gemini Advanced") — reproduced across many retries/rewordings, so it's an STT-model prior/hallucination on that specific brand+digit, not a bad TTS clip. Workaround that transcribes cleanly every time: phrase it as "...नंबर 3 वाला..." (lit. "the one numbered 3") instead of "Gemini 3"/"Gemini Three" directly adjacent to "Gemini".
+- **Sandbox Python/Pillow bug:** this environment's default `python3` (3.11) resolves `PIL` to a broken system install at `/usr/lib/python3/dist-packages/PIL` (no compiled `_imaging`, import fails) even after `pip install pillow`, because pip sees that broken copy as "already satisfied" and skips it. Fix: `python3.11 -m pip install --force-reinstall --no-deps pillow`, then always invoke render scripts as `python3.11` (not the `/usr/local/bin/python3` → 3.13 alias) so numpy/PIL/requests all resolve to the same working interpreter.
+- **Git branch note:** `origin/main` is behind this repo's `claude/vibrant-mendel-idgw86` branch (missing the last several reel-adding commits/files, going back to the Nano Banana reel) — this session's harness only allows pushing to `claude/vibrant-mendel-idgw86`, not `main`. The reel .mp4 was committed there (not `/main/`) for history/backup; actual Instagram hosting used `vidiq_video_upload` with `localFile` (direct upload from the sandbox to vidIQ's own storage), not a GitHub raw URL. Vicky: merge `claude/vibrant-mendel-idgw86` into `main` if you want the two branches back in sync.
 
 ## WORKSHOP BATCH DATE RULE (set 2026-11-20, Vicky's instruction — do not hardcode a fixed date again)
 Every month has TWO batches, always:
