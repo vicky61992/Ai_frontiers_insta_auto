@@ -15,9 +15,9 @@ Rule: 2 VALUE Reels : 1 WORKSHOP AD Reel. Never repeat a topic.
 | 2026-11-20 | VALUE | Gemini Tasks free in India (bg multi-step agent) | Posted | https://www.instagram.com/reel/Df9zwpigAZT/ |
 | 2026-11-21 | WORKSHOP AD | Zero-Code AI Workshop (weekend/calendar hook, batch 28-29 Nov per new date rule) | Posted | https://www.instagram.com/reel/Df_eqsMAKc9/ |
 | 2026-11-22 | VALUE | Jio Unlimited 5G users: Google Gemini Pro 18 months free (Gemini 3 + 2TB) | Posted (found live on IG, backfilled into log — was never logged by the run that made it) | https://www.instagram.com/reel/DgDG9jNDP4X/ |
-| 2026-11-23 | VALUE | Gemini Nano Banana free photo trick (old photo repair / 3D figurine) | Rendered + QA'd, sent to Vicky for review, awaiting his "yes" to post | reels/2026-11-21-gemini-nano-banana.mp4 (local, not yet posted) |
+| 2026-11-23 | VALUE | Gemini Nano Banana free photo trick (old photo repair / 3D figurine) | Posted | https://www.instagram.com/reel/DgFy3tgDFK_/ |
 
-Next type due: WORKSHOP AD, once the 23 Nov Nano Banana reel above is approved and posted — the 2 VALUE reels owed after the 21 Nov ad are now both done (22 Nov Jio + 23 Nov Nano Banana).
+Next type due: WORKSHOP AD — the 2 VALUE reels owed after the 21 Nov ad are both done (22 Nov Jio + 23 Nov Nano Banana).
 
 2026-11-10 gemini-notebook-v3.mp4 / -v4.mp4: earlier draft iterations of the already-posted Gemini Notebook reel (DfjyQxYFKgY) — not separate pending posts, do not publish.
 
