@@ -14,10 +14,16 @@ Rule: 2 VALUE Reels : 1 WORKSHOP AD Reel. Never repeat a topic.
 | 2026-11-17 | WORKSHOP AD | Zero-Code AI Workshop (3D/pizza-price hook) | Posted | https://www.instagram.com/reel/Df2VspfDLzh/ |
 | 2026-11-20 | VALUE | Gemini Tasks free in India (bg multi-step agent) | Posted | https://www.instagram.com/reel/Df9zwpigAZT/ |
 | 2026-11-21 | WORKSHOP AD | Zero-Code AI Workshop (weekend/calendar hook, batch 28-29 Nov per new date rule) | Posted | https://www.instagram.com/reel/Df_eqsMAKc9/ |
+| 2026-11-22 | VALUE | Jio Unlimited 5G users: free Gemini Pro 18 months (Gemini 3 + 2TB) | Posted | https://www.instagram.com/reel/DgDG9jNDP4X/ |
+| 2026-11-23 | VALUE | Pramaan — free AI Originality & Plagiarism Checker | Posted | https://www.instagram.com/reel/DgEa7elzUb4/ |
+| 2026-11-23 | VALUE | Nano Banana — free AI photo edit in Gemini app | Posted | https://www.instagram.com/reel/DgFy3tgDFK_/ |
 
-Next type due: VALUE, VALUE (then WORKSHOP AD) — 2 VALUE reels owed before next ad, per the 2:1 ratio.
+Next type due: WORKSHOP AD — 3 VALUE reels posted since the last ad (2026-11-21), ratio already satisfied/exceeded, so the next Reel must be a WORKSHOP AD.
+
+Note (2026-11-24): the Jio, Pramaan and Nano Banana reels above were posted by an earlier run but never logged here and their source files/scripts were never committed to this repo (only reels/2026-11-21-gemini-nano-banana.mp4 exists locally, matching the Nano Banana post) — added retroactively from Instagram owner-insights data so the ratio tracking stays correct. Always double check vidiq_instagram_owner_insights against this table before deciding what's "next type due".
 
 2026-11-10 gemini-notebook-v3.mp4 / -v4.mp4: earlier draft iterations of the already-posted Gemini Notebook reel (DfjyQxYFKgY) — not separate pending posts, do not publish.
+2026-11-21-gemini-nano-banana.mp4: draft iteration of the already-posted Nano Banana reel (DgFy3tgDFK_) — not a separate pending post, do not publish.
 
 ## Notes
 - Voice: gemini-3.8-flash-tts, Puck, one request per scene ~25 s apart (429 on back-to-back calls; retry after ~20–40 s). Keep only WAV data chunk.
