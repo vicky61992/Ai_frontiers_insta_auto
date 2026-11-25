@@ -14,7 +14,7 @@ Rule: 2 VALUE Reels : 1 WORKSHOP AD Reel. Never repeat a topic.
 | 2026-11-17 | WORKSHOP AD | Zero-Code AI Workshop (3D/pizza-price hook) | Posted | https://www.instagram.com/reel/Df2VspfDLzh/ |
 | 2026-11-20 | VALUE | Gemini Tasks free in India (bg multi-step agent) | Posted | https://www.instagram.com/reel/Df9zwpigAZT/ |
 | 2026-11-21 | WORKSHOP AD | Zero-Code AI Workshop (weekend/calendar hook, batch 28-29 Nov per new date rule) | Posted | https://www.instagram.com/reel/Df_eqsMAKc9/ |
-| 2026-11-25 | VALUE | ChatGPT Study Mode (free, step-by-step guided learning) | Rendered, awaiting Vicky yes | - |
+| 2026-11-25 | VALUE | ChatGPT Study Mode (free, step-by-step guided learning) | Posted | https://www.instagram.com/reel/DgLKCF6BVG_/ |
 
 Next type due: VALUE (then WORKSHOP AD) — 1 more VALUE reel owed before next ad, per the 2:1 ratio.
 
