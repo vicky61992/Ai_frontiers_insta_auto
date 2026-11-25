@@ -14,16 +14,25 @@ Rule: 2 VALUE Reels : 1 WORKSHOP AD Reel. Never repeat a topic.
 | 2026-11-17 | WORKSHOP AD | Zero-Code AI Workshop (3D/pizza-price hook) | Posted | https://www.instagram.com/reel/Df2VspfDLzh/ |
 | 2026-11-20 | VALUE | Gemini Tasks free in India (bg multi-step agent) | Posted | https://www.instagram.com/reel/Df9zwpigAZT/ |
 | 2026-11-21 | WORKSHOP AD | Zero-Code AI Workshop (weekend/calendar hook, batch 28-29 Nov per new date rule) | Posted | https://www.instagram.com/reel/Df_eqsMAKc9/ |
+| 2026-11-23 | VALUE | Pramaan — AI Originality & Plagiarism Checker | Posted | https://www.instagram.com/reel/DgEa7elzUb4/ |
+| 2026-11-23 | VALUE | Nano Banana (Gemini free photo-fix trick) | Posted | https://www.instagram.com/reel/DgFy3tgDFK_/ |
+| 2026-11-24 | WORKSHOP AD | Zero-Code AI Workshop ("Nov ka last weekend" hook, batch 28-29 Nov) | Posted | https://www.instagram.com/reel/DgHDBeTjVGS/ |
+| 2026-11-25 | VALUE | ChatGPT Study Mode (free built-in tutor mode) | Rendered, awaiting Vicky yes | - |
 
-Next type due: VALUE, VALUE (then WORKSHOP AD) — 2 VALUE reels owed before next ad, per the 2:1 ratio.
+Next type due: VALUE (then WORKSHOP AD) — 1 VALUE reel owed before next ad, per the 2:1 ratio (once 2026-11-25 is posted).
 
 2026-11-10 gemini-notebook-v3.mp4 / -v4.mp4: earlier draft iterations of the already-posted Gemini Notebook reel (DfjyQxYFKgY) — not separate pending posts, do not publish.
+
+2026-11-23/24 entries were reconstructed on 2026-11-25 from vidiq_instagram_owner_insights (live IG data) — the session(s) that made and posted those 3 reels never committed their files or updated this log, so this repo has no video/script record for them. reels/2026-11-21-gemini-nano-banana.mp4 is a leftover unused draft from that gap (never sent to Vicky, never posted) — it is NOT the Nano Banana reel that actually went live (DgFy3tgDFK_, posted 2026-11-23); do not publish it, it can be deleted whenever convenient.
 
 ## Notes
 - Voice: gemini-3.8-flash-tts, Puck, one request per scene ~25 s apart (429 on back-to-back calls; retry after ~20–40 s). Keep only WAV data chunk.
 - STT QA: gemini-3.5-flash.
 - Renderer: Python + PIL + ffmpeg, navy+gold, cover first 3 s, synthesized music ducked.
 - rocket-launch-register.lovable.app is not reachable from the cloud sandbox (network allowlist); workshop details taken from earlier captions.
+- 2026-11-25: default `python3` (3.11) has a broken Pillow (missing matching `_imaging` .so for that interpreter) in this sandbox — use `python3.13` instead, which has a working Pillow install. `numpy` is not installed; wrote the background-music synth in pure Python (no numpy) instead.
+- Render approach that worked well: per-scene icon/motion drawn with PIL primitives only (no emoji font — compositing color-emoji glyphs is unreliable), full video rendered frame-by-frame at 30fps (1275 frames in ~30s on this box) rather than trying to do motion via ffmpeg filters; captions kept out of y>1540 (bottom-reserved) and the CTA scene's own card carries its own text so a duplicate caption box on top of it was dropped as redundant clutter.
+- Nothing in this repo persists the renderer/TTS scripts between sessions (not committed, scratchpad is ephemeral) — each run currently rebuilds the whole pipeline from scratch.
 
 ## WORKSHOP BATCH DATE RULE (set 2026-11-20, Vicky's instruction — do not hardcode a fixed date again)
 Every month has TWO batches, always:
